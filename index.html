@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- CSS only -->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-main">
+        <div class="image-weather">
+          <img src="images/sun-cloud.png" />
+        </div>
+        <div class="main-info">
+          <form id="search-city">
+            <input type="text" id="city-input" placeholder="Enter city" />
+            <input type="submit" value="search" />
+          </form>
+          <p class="name-weather">Kyiv</p>
+          <p>
+            <span class="month">May</span>, <span class="date">25th</span>,
+            <span class="day">Mon</span>
+          </p>
+        </div>
+        <div class="main-temperature">
+          <p>
+            <span id="temperature">31</span><sup>o</sup>
+            <a href="#" id="celsius">C</a> |
+            <a href="#" id="fahrenheit">F</a>
+          </p>
+        </div>
+      </div>
+      <div class="container-temperature">
+        <div class="card">
+          <div class="image">
+            <img src="images/sun.png" />
+          </div>
+          <div class="information">
+            <h5>
+              TUE <br />
+              May, 26th
+            </h5>
+            <p class="temparute-info">+18...+27<sup>o</sup>C</p>
+          </div>
+        </div>
+
+        <div class="card card-light">
+          <div class="image">
+            <img src="images/sun-cloud.png" />
+          </div>
+          <div class="information">
+            <h5>
+              WED <br />
+              May, 27 th
+            </h5>
+            <p class="temparute-info">+19...+25<sup>o</sup>C</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img src="images/cloud-rain.png" />
+          </div>
+          <div class="information">
+            <h5>
+              THU <br />
+              May, 28th
+            </h5>
+            <p class="temparute-info">+17...+22<sup>o</sup>C</p>
+          </div>
+        </div>
+
+        <div class="card card-light">
+          <div class="image">
+            <img src="images/cloud.png" />
+          </div>
+          <div class="information">
+            <h5>
+              FRI <br />
+              May, 29th
+            </h5>
+            <p class="temparute-info">+19...+28<sup>o</sup>C</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="images/sun-cloud-rain.png" />
+          </div>
+          <div class="information">
+            <h5>
+              SAT <br />
+              May, 30th
+            </h5>
+            <p class="temparute-info">+18...+25<sup>o</sup>C</p>
+          </div>
+        </div>
+
+        <div class="card card-light">
+          <div class="image">
+            <img src="images/sun.png" />
+          </div>
+          <div class="information">
+            <h5>
+              SUN <br />
+              May, 31th
+            </h5>
+            <p class="temparute-info">+19...+28<sup>o</sup>C</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
