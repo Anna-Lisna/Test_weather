@@ -67,3 +67,7 @@ a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
+.github {
+  color: #FFC800;
+}
